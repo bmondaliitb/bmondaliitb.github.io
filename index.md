@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to my github page
+
+### short intro:
+I am a PhD student working on high energy particle physics with the ATLAS dectector located at CERN, Geneva.
 
 You can use the [editor on GitHub](https://github.com/bmondaliitb/buddha.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
