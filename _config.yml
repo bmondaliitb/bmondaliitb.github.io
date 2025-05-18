@@ -1,2 +1,11 @@
-theme: jekyll-theme-cayman
-title: "Buddhadeb Mondal"
+title: My Quarky Corner of the Web
+description: The official website of an experimental high energy physicist with hersonal pobbies
+
+# Navigation links
+navbar-links:
+  Home: "/"
+  Research Radness: "/research"
+  Hersonal Pobbies: "/hobbies"
+
+# Theme settings
+theme: jekyll-theme-minimal

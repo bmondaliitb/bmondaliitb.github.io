@@ -1,43 +1,15 @@
-## Welcome to my github page
+# Welcome to My Quarky Corner of the Web!
 
-### short intro:
-I am a PhD student working on high energy particle physics with the ATLAS dectector located at CERN, Geneva.
+## About Me
+Greetings! I'm an experimental high energy physicist working on particle physics with the ATLAS detector at CERN, Geneva. When I'm not chasing subatomic particles, I can be found pursuing my "hersonal pobbies".
 
-<!---
-You can use the [editor on GitHub](https://github.com/bmondaliitb/buddha.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## What's Here?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [Research Radness](/research.html)
+My "sciency stufferinos" - papers, projects, and particle puzzles from my professional life.
 
-### Markdown
+### [Hersonal Pobbies](/hobbies.html)
+The "non-quantum quirkiness" that occupies my free time.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bmondaliitb/buddha.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
--->
+---
+*Feel free to explore the tabs above to learn more about my work and interests!*
