@@ -1,25 +1,26 @@
 ---
 layout: default
-title: Photon Photography
+title: Photon Trapper
 ---
 
-# Photon Photography
+# The Photon Trapper's Gallery
 
-## Light Outside the Detector
+## Light: The Slower, More Visible Version
 
-Here's where I share photos captured by my camera instead of the ATLAS detector. Significantly fewer terabytes of data, but much prettier to look at!
+While my day job involves tracking particles moving near light speed, my hobby involves capturing light itself in rectangular boxes.
 
-### Gallery Highlights
+### Photon Collections
 
-*Coming soon! Photos will be organized by category below:*
+#### Cosmic Landscapes
+![Sample landscape](/assets/images/photography/landscapes/sample.jpg)
+*A stunning view of [location] captured during my visit in [year]*
 
-#### Landscape Luminosities
-*Photos of natural wonders*
+#### Macro Universes
+![Macro photo](/assets/images/photography/macro/sample.jpg)
+*Getting uncomfortably close to [subject]*
 
-#### Particle Portraits
-*Photos of people, not particles*
+#### Urban Accelerators
+![City scene](/assets/images/photography/urban/sample.jpg)
+*[City name] from a different perspective*
 
-#### Travel Trajectories
-*Photos from adventures around the world*
-
-[Back to Hobbies](/hobbies.html) | [Back to Home](/)
+[Back to Leisure Laboratory](/hobbies.html) | [Return to Control Room](/)

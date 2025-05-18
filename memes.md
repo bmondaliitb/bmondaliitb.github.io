@@ -1,18 +1,20 @@
 ---
 layout: default
-title: Meme-ology
+title: Meme Accelerator
 ---
 
-# Meme-ology
+# The Meme Accelerator
 
-## Where Physics Meets Funny
+## Where Humor Reaches 99.99% the Speed of Light
 
-Welcome to my collection of physics memes and other internet humor that tickles my funny boson.
+This is my collection of images that produce strange quantum effects like unexpected laughter and spontaneous snorting.
 
-### Physics Phunnies
-*Coming soon! A collection of my favorite physics-related humor*
+### Physics Fission
+![Physics meme](/assets/images/memes/physics/sample1.jpg)
+*Caption: When someone asks if the Higgs gives mass to all particles*
 
-### General Relativity of Humor
-*Other memes that aren't about physics but are still relatively funny*
+### Universal Constants
+![General meme](/assets/images/memes/general/sample1.jpg)
+*Caption: The face you make when someone says "I'm not a scientist, but..."*
 
-[Back to Hobbies](/hobbies.html) | [Back to Home](/)
+[Return to Leisure Laboratory](/hobbies.html) | [Beam me back to Homepage](/)
