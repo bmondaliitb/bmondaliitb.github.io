@@ -9,6 +9,7 @@ A small, Markdown-first Jekyll site for GitHub Pages. There is no JavaScript fra
 - Individual research notes: `_research/*.md`
 - Project overview: `projects/index.md`
 - Individual projects: `_projects/*.md`
+- Informal notes: `thoughts/index.md`
 - CV and talks: `cv/index.md`
 - Selected papers: `publications/index.md`
 
