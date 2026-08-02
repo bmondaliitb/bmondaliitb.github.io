@@ -1,5 +1,5 @@
 ---
-title: Random thoughts
+title: Random
 kicker: Notes and fragments
 intro: Short observations from research, software, books, and daily work—ideas worth keeping even when they do not need to become formal articles.
 ---
