@@ -141,11 +141,83 @@ h3 {
   border-bottom: 1px solid var(--ink);
 }
 
-.hero-grid { display: block; }
-.hero-copy { max-width: 920px; }
-.hero .lede { max-width: 860px; }
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr);
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-copy { max-width: 800px; }
+.hero .lede { max-width: 780px; }
 .hero h1 span { color: inherit; }
-.detector-visual { display: none; }
+
+.detector-visual {
+  position: relative;
+  aspect-ratio: 1;
+  isolation: isolate;
+}
+
+.detector-visual::before,
+.detector-visual::after {
+  content: "";
+  position: absolute;
+  inset: 6%;
+  z-index: -1;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  background: #f1f3f8;
+}
+
+.detector-visual::after {
+  inset: 31%;
+  background: var(--white);
+  box-shadow:
+    0 0 0 17px var(--yellow),
+    0 0 0 40px #cbd3ff,
+    0 0 0 63px #eef0ff;
+}
+
+.detector-label {
+  position: absolute;
+  padding: 5px 8px;
+  border: 1px solid var(--ink);
+  background: var(--white);
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.detector-label--a { top: 10%; right: -3%; }
+.detector-label--b { bottom: 18%; left: -7%; }
+.detector-label--c { right: -1%; bottom: 5%; }
+
+.collision {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  background: var(--yellow);
+  transform: translate(-50%, -50%);
+}
+
+.track {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 46%;
+  height: 2px;
+  transform-origin: left center;
+  background: var(--blue);
+}
+
+.track:nth-child(2) { transform: rotate(24deg); }
+.track:nth-child(3) { transform: rotate(116deg); }
+.track:nth-child(4) { transform: rotate(194deg); }
+.track:nth-child(5) { transform: rotate(305deg); }
 
 .button-row {
   display: flex;
@@ -477,6 +549,8 @@ h3 {
 .footer-links a { color: var(--blue-dark); }
 
 @media (max-width: 820px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 46px; }
+  .detector-visual { width: min(78vw, 390px); margin-inline: auto; }
   .section-heading,
   .about-strip { grid-template-columns: 1fr; gap: 12px; }
   .card-grid { grid-template-columns: 1fr; }

@@ -14,6 +14,13 @@ full_width: true
         <a class="button button--secondary" href="{{ '/CV_Buddhadeb_Mondal.pdf' | relative_url }}">Download CV</a>
       </div>
     </div>
+    <div class="detector-visual" role="img" aria-label="Abstract cross-section of a particle detector with tracks emerging from a collision">
+      <span class="collision"></span>
+      <span class="track"></span><span class="track"></span><span class="track"></span><span class="track"></span>
+      <span class="detector-label detector-label--a">calorimeter signals</span>
+      <span class="detector-label detector-label--b">13 TeV collisions</span>
+      <span class="detector-label detector-label--c">precision + ML</span>
+    </div>
   </div>
 </section>
 
@@ -29,21 +36,6 @@ full_width: true
       {% for item in current_research limit:4 %}{% include research-card.html item=item %}{% endfor %}
     </div>
     <a class="section-link" href="{{ '/research/' | relative_url }}">See ongoing and past research →</a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="section-heading">
-      <p class="eyebrow">Selected software</p>
-      <h2>Small tools with a clear job.</h2>
-      <p>Outside collaboration work, I build focused desktop and web tools—for visual thinking, Bengali literature, scientific workflows, and the Linux desktop.</p>
-    </div>
-    <div class="card-grid">
-      {% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
-      {% for item in featured_projects limit:6 %}{% include project-card.html item=item %}{% endfor %}
-    </div>
-    <a class="section-link" href="{{ '/projects/' | relative_url }}">Browse all side projects →</a>
   </div>
 </section>
 

@@ -1,5 +1,5 @@
 ---
-title: Side projects
+title: Random projects
 kicker: Software outside the collaboration
 intro: Focused experiments in scientific tooling, desktop software, literature, and everyday computing. Each page is written in Markdown and can grow with the project.
 ---
