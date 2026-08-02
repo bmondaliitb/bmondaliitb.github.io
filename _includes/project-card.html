@@ -1,0 +1,12 @@
+<article class="card project-card">
+  <a class="card-cover project-cover project-cover--{{ include.item.accent | default: 'blue' }}" href="{{ include.item.url | relative_url }}" aria-label="Read about {{ include.item.title }}">
+    <span class="project-mark" aria-hidden="true">{% if include.item.mark %}{{ include.item.mark }}{% else %}{{ include.item.title | slice: 0, 2 }}{% endif %}</span>
+    <span class="project-stack">{{ include.item.stack }}</span>
+  </a>
+  <div class="card-body">
+    <div class="eyebrow">{{ include.item.kind }}</div>
+    <h3><a href="{{ include.item.url | relative_url }}">{{ include.item.title }}</a></h3>
+    <p>{{ include.item.summary }}</p>
+    <a class="text-link" href="{{ include.item.url | relative_url }}">Project details <span aria-hidden="true">→</span></a>
+  </div>
+</article>

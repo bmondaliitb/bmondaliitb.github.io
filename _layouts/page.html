@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% if page.full_width %}
+  {{ content }}
+{% else %}
+  <div class="shell page-shell">
+    <header class="page-intro">
+      {% if page.kicker %}<p class="eyebrow">{{ page.kicker }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.intro %}<p class="lede">{{ page.intro }}</p>{% endif %}
+    </header>
+    <article class="prose">{{ content }}</article>
+  </div>
+{% endif %}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Calorimeter cluster machine-learning workflow</title>
+  <desc id="desc">Detector cells form clusters, a neural network estimates calibrated energy and pile-up probability, and the output feeds jets, recoil, and missing transverse momentum.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#f7f4eb"/><stop offset="1" stop-color="#edf4ef"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17211d" flood-opacity=".08"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#0e6655"/></marker>
+  </defs>
+  <rect width="1100" height="560" rx="26" fill="url(#panel)"/>
+  <g font-family="Inter,Arial,sans-serif" fill="#17211d">
+    <text x="70" y="72" font-size="18" font-weight="700" letter-spacing="2">FROM SIGNALS TO PHYSICS OBJECTS</text>
+    <text x="70" y="105" font-size="16" fill="#5f6b65">A simplified view of the current reconstruction study</text>
+  </g>
+  <g transform="translate(65 155)" filter="url(#shadow)">
+    <rect width="250" height="250" rx="20" fill="#fffef9" stroke="#d9ddd6"/>
+    <g transform="translate(30 30)">
+      <g fill="#dcebe4" stroke="#0e6655" stroke-width="2">
+        <path d="M0 0h42v42H0z"/><path d="M46 0h42v42H46z"/><path d="M92 0h42v42H92z"/><path d="M138 0h42v42h-42z"/>
+        <path d="M0 46h42v42H0z"/><path d="M46 46h42v42H46z"/><path d="M92 46h42v42H92z"/><path d="M138 46h42v42h-42z"/>
+        <path d="M0 92h42v42H0z"/><path d="M46 92h42v42H46z"/><path d="M92 92h42v42H92z"/><path d="M138 92h42v42h-42z"/>
+      </g>
+      <g fill="#e9b949"><circle cx="68" cy="67" r="25"/><circle cx="110" cy="105" r="19"/><circle cx="142" cy="67" r="12"/></g>
+    </g>
+    <text x="30" y="224" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">Topological clusters</text>
+  </g>
+  <path d="M335 280H425" fill="none" stroke="#0e6655" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(440 155)" filter="url(#shadow)">
+    <rect width="220" height="250" rx="20" fill="#17211d"/>
+    <g stroke="#dcebe4" stroke-width="2" opacity=".7">
+      <path d="M48 65L108 48L168 72M48 65L108 112L168 72M48 145L108 112L168 158M48 145L108 190L168 158"/>
+    </g>
+    <g fill="#e9b949"><circle cx="48" cy="65" r="9"/><circle cx="48" cy="145" r="9"/><circle cx="108" cy="48" r="9"/><circle cx="108" cy="112" r="9"/><circle cx="108" cy="190" r="9"/><circle cx="168" cy="72" r="9"/><circle cx="168" cy="158" r="9"/></g>
+    <text x="110" y="225" text-anchor="middle" fill="#fffef9" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">Neural network</text>
+  </g>
+  <path d="M680 280H760" fill="none" stroke="#0e6655" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(780 145)" font-family="Inter,Arial,sans-serif">
+    <g filter="url(#shadow)"><rect width="255" height="78" rx="16" fill="#fffef9" stroke="#d9ddd6"/><circle cx="38" cy="39" r="17" fill="#e9b949"/><text x="68" y="35" font-size="15" font-weight="700">Calibrated energy</text><text x="68" y="56" font-size="13" fill="#5f6b65">accuracy + uncertainty</text></g>
+    <g transform="translate(0 92)" filter="url(#shadow)"><rect width="255" height="78" rx="16" fill="#fffef9" stroke="#d9ddd6"/><circle cx="38" cy="39" r="17" fill="#b7cfdb"/><text x="68" y="35" font-size="15" font-weight="700">Pile-up probability</text><text x="68" y="56" font-size="13" fill="#5f6b65">signal classification</text></g>
+    <g transform="translate(0 184)" filter="url(#shadow)"><rect width="255" height="78" rx="16" fill="#fffef9" stroke="#d9ddd6"/><circle cx="38" cy="39" r="17" fill="#b9d8cc"/><text x="68" y="35" font-size="15" font-weight="700">Physics performance</text><text x="68" y="56" font-size="13" fill="#5f6b65">jets · recoil · missing pT</text></g>
+  </g>
+  <text x="65" y="495" font-family="Inter,Arial,sans-serif" font-size="14" fill="#5f6b65">Inputs: cluster energy, shower shape, position, timing, and event context</text>
+</svg>

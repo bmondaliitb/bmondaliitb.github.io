@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="shell detail-shell">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}">← All projects</a>
+  <header class="detail-header project-detail-header">
+    <div class="project-detail-mark project-cover--{{ page.accent | default: 'blue' }}" aria-hidden="true">{{ page.mark }}</div>
+    <div>
+      <p class="eyebrow">{{ page.kind }} · {{ page.stack }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lede">{{ page.summary }}</p>
+      <div class="button-row">
+        {% if page.github %}<a class="button" href="{{ page.github }}">View on GitHub ↗</a>{% endif %}
+        {% if page.demo %}<a class="button button--secondary" href="{{ page.demo }}">Open project ↗</a>{% endif %}
+        {% unless page.github %}<span class="availability">Repository not public</span>{% endunless %}
+      </div>
+    </div>
+  </header>
+  {% if page.image %}
+    <figure class="feature-figure feature-figure--project">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}">
+      {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
+  <article class="prose prose--detail">{{ content }}</article>
+</div>

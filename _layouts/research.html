@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="shell detail-shell">
+  <a class="back-link" href="{{ '/research/' | relative_url }}">← All research</a>
+  <header class="detail-header">
+    <div class="detail-meta">
+      <span class="status status--{{ page.status | slugify }}">{{ page.status }}</span>
+      <span>{{ page.period }}</span>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.summary }}</p>
+    {% if page.tags %}<div class="tag-list">{% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}</div>{% endif %}
+  </header>
+  {% if page.hero %}
+    <figure class="feature-figure">
+      <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}">
+      {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
+  <article class="prose prose--detail">{{ content }}</article>
+</div>

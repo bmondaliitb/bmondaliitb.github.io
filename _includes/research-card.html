@@ -1,0 +1,9 @@
+<article class="research-list-item">
+  <div>
+    <span class="status status--{{ include.item.status | slugify }}">{{ include.item.status }}</span>
+    <span class="period">{{ include.item.period }}</span>
+  </div>
+  <h3><a href="{{ include.item.url | relative_url }}">{{ include.item.title }}</a></h3>
+  <p>{{ include.item.summary }}</p>
+  <a class="text-link" href="{{ include.item.url | relative_url }}">Read the research note <span aria-hidden="true">→</span></a>
+</article>

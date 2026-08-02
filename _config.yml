@@ -1,11 +1,39 @@
-title: My Quarky Corner of the Web
-description: The official website of an experimental high energy physicist with hersonal pobbies
+title: Buddhadeb Mondal
+description: Particle physicist working on the ATLAS experiment at CERN.
+url: "https://bmondaliitb.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Prague
 
-# Navigation links
-navbar-links:
-  Home: "/"
-  Research Radness: "/research"
-  Hersonal Pobbies: "/hobbies"
+markdown: kramdown
+permalink: pretty
 
-# Theme settings
-theme: jekyll-theme-minimal
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
