@@ -14,13 +14,6 @@ full_width: true
         <a class="button button--secondary" href="{{ '/CV_Buddhadeb_Mondal.pdf' | relative_url }}">Download CV</a>
       </div>
     </div>
-    <div class="detector-visual" role="img" aria-label="Abstract cross-section of a particle detector with tracks emerging from a collision">
-      <span class="collision"></span>
-      <span class="track"></span><span class="track"></span><span class="track"></span><span class="track"></span>
-      <span class="detector-label detector-label--a">calorimeter signals</span>
-      <span class="detector-label detector-label--b">13 TeV collisions</span>
-      <span class="detector-label detector-label--c">precision + ML</span>
-    </div>
   </div>
 </section>
 
