@@ -8,7 +8,7 @@ full_width: true
     <div class="hero-copy">
       <p class="eyebrow">Particle physicist · Prague & CERN</p>
       <h1>Making complex collisions <span>measurable.</span></h1>
-      <p class="lede">I am a postdoctoral researcher at the Institute of Physics of the Czech Academy of Sciences (FZU), working with the ATLAS experiment at CERN. My research connects calorimeter reconstruction, machine learning, and precision measurements of the top quark.</p>
+      <p class="lede">I am a postdoctoral researcher at FZU, working with the ATLAS experiment at CERN. I study calorimeter reconstruction, machine learning, and precision top-quark measurements.</p>
       <div class="button-row">
         <a class="button" href="{{ '/research/' | relative_url }}">Explore my research</a>
         <a class="button button--secondary" href="{{ '/CV_Buddhadeb_Mondal.pdf' | relative_url }}">Download CV</a>
@@ -27,13 +27,13 @@ full_width: true
 <section class="section section--surface">
   <div class="shell">
     <div class="section-heading">
-      <p class="eyebrow">Current focus</p>
-      <h2>Better inputs for better physics.</h2>
-      <p>I develop and evaluate machine-learning methods for calibrating ATLAS calorimeter clusters, then study how those improvements propagate to jets, hadronic recoil, and missing transverse momentum.</p>
+      <p class="eyebrow">Research</p>
+      <h2>Current research</h2>
+      <p>I develop machine-learning methods for ATLAS calorimeter-cluster calibration and study their effects on jets, recoil, and missing transverse momentum.</p>
     </div>
     <div class="research-grid">
       {% assign current_research = site.research | where: "featured", true | sort: "order" %}
-      {% for item in current_research limit:4 %}{% include research-card.html item=item %}{% endfor %}
+      {% for item in current_research limit:3 %}{% include research-card.html item=item %}{% endfor %}
     </div>
     <a class="section-link" href="{{ '/research/' | relative_url }}">See ongoing and past research →</a>
   </div>
@@ -43,14 +43,14 @@ full_width: true
   <div class="shell about-strip">
     <div>
       <p class="eyebrow">About</p>
-      <h2>Physics, from detector signals to published results.</h2>
+      <h2>Background</h2>
     </div>
     <div>
-      <p>My path through experimental particle physics began with jet substructure and cosmic-ray anisotropy, continued through ATLAS pixel data-acquisition software and data-driven background estimates, and led to differential measurements of top-quark-pair production with a photon. Today, I work at FZU in Prague on machine-learned calorimeter calibration.</p>
+      <p>I completed my PhD at the University of Siegen, working on the ATLAS experiment. My research has included pixel data-acquisition software, data-driven background estimates, and differential measurements of top-quark-pair production with a photon.</p>
       <div class="fact-list">
+        <div class="fact"><strong>FZU</strong><span>Postdoctoral researcher</span></div>
         <div class="fact"><strong>ATLAS</strong><span>CERN collaboration</span></div>
-        <div class="fact"><strong>140 fb⁻¹</strong><span>Run 2 dataset used in tt̄γ</span></div>
-        <div class="fact"><strong>300+</strong><span>ATLAS papers co-authored</span></div>
+        <div class="fact"><strong>Siegen</strong><span>PhD in particle physics</span></div>
       </div>
       <a class="section-link" href="{{ '/cv/' | relative_url }}">Education, experience, and talks →</a>
     </div>
