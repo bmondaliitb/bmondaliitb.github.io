@@ -12,16 +12,14 @@ image_alt: Monochrome line illustration from the public-domain Tagore artwork co
 image_caption: One of the historical illustrations used as quiet visual accompaniment in the radio interface.
 ---
 
-Tagore Radio is a small internet-radio system for Rabindra Sangeet and recordings of Rabindranath Tagore. A static, installable web app talks to a FastAPI service that chooses tracks, resolves playable public audio, and maintains a shared station state so listeners hear the same current song.
+Tagore Radio plays Rabindra Sangeet and recordings of Rabindranath Tagore. An installable static web app connects to a FastAPI service that selects tracks, resolves public audio, and keeps listeners on the same current song.
 
-## A resilient catalogue
+## Catalogue and playback
 
-The backend builds a reusable catalogue from Wikimedia Commons and Internet Archive recordings, keeping source and license information with each track. It rotates by normalized composition title rather than raw filename, which avoids presenting the same song as new simply because another singer recorded it. Archival recordings in Tagore's own voice form a separate station and periodically appear in the mixed station.
+The catalogue draws from Wikimedia Commons and Internet Archive, retaining source and license information. Rotation uses normalized composition titles to avoid repeating a song under different performers or filenames. Recordings in Tagore's voice have a separate station and also appear periodically in the mixed station.
 
-The project can use a home-hosted backend through a Cloudflare tunnel and fall back to a hosted Render service when the primary endpoint is unavailable. The browser reflects that change rather than silently failing.
+A home-hosted backend connects through a Cloudflare tunnel, with a hosted Render service as fallback. The browser shows when the endpoint changes.
 
 ## Recognition and lyrics
 
-The Linux desktop companion can sample the current audio, identify it through SongRec, and match the result to Bengali lyrics from Geetabitan or Tagoreweb. Matching has to cope with transliteration, performer prefixes, alternative spellings, and cases where an upload title describes an album rather than an individual composition.
-
-The repository is currently private, so this page describes the project without exposing a dead or inaccessible code link.
+A Linux desktop companion samples audio, identifies it with SongRec, and finds Bengali lyrics on Geetabitan or Tagoreweb. Matching accounts for transliteration, performer prefixes, spelling variants, and uploads titled by album rather than song.

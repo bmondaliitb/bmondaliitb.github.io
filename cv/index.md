@@ -1,7 +1,5 @@
 ---
 title: Curriculum vitae
-kicker: Background and experience
-intro: Experimental particle physicist with experience spanning detector software, data analysis, machine learning, statistics, and scientific computing.
 ---
 
 [Download the full CV as PDF]({{ '/CV_Buddhadeb_Mondal.pdf' | relative_url }})

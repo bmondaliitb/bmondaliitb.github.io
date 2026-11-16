@@ -1,7 +1,6 @@
 ---
 title: Publications
-kicker: Selected work
-intro: A short list of publications closely connected to my research contributions. As an ATLAS member, I am also a co-author of more than 300 collaboration papers.
+intro: Selected papers related to my research. I am also a co-author of more than 300 ATLAS collaboration papers.
 ---
 
 ## Top quarks and photons

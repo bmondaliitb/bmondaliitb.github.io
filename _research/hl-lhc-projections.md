@@ -8,14 +8,10 @@ summary: Projecting how future tt̄γ and tt̄Z measurements can sharpen constra
 tags: [HL-LHC, top quark, effective field theory, projections]
 ---
 
-The High-Luminosity LHC will provide a much larger collision dataset than Run 2. Projection studies translate that future statistical power into expected sensitivity while making explicit assumptions about how experimental and theoretical uncertainties may improve.
+I extrapolated ATLAS Run 2 differential tt̄γ and tt̄Z cross-sections to High-Luminosity LHC scenarios. Event yields were scaled to future luminosities, with two uncertainty models separating statistical gains from improvements in experimental and theoretical systematics.
 
-## Starting from measured data
+The projections were interpreted in Standard Model effective field theory. Photons and Z bosons probe different combinations of electroweak top-quark couplings, so their combination constrains directions that either process alone measures weakly.
 
-This work extrapolated the latest ATLAS Run 2 differential cross-sections for tt̄γ and tt̄Z. Expected event yields were scaled to high-luminosity scenarios, and two uncertainty models were used to separate gains driven by more data from those that require better control of systematic effects.
+The study also explored combined ATLAS and CMS sensitivity at 2–3 ab⁻¹ per experiment.
 
-The projected measurements were interpreted in Standard Model effective field theory. Because photons and Z bosons probe related but different combinations of electroweak couplings, their joint interpretation can resolve directions that either process alone constrains only weakly.
-
-The study also explored combinations of expected ATLAS and CMS sensitivity, using integrated luminosities of 2–3 ab⁻¹ per experiment. The resulting public note provides a realistic benchmark for the reach of top-quark electroweak measurements in the HL-LHC program.
-
-[Read ATL-PHYS-PUB-2025-015](https://cds.cern.ch/record/2927962) · [View the public figures](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2025-015/)
+[Public note](https://cds.cern.ch/record/2927962) · [Figures](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2025-015/)

@@ -4,27 +4,21 @@ status: Ongoing
 period: 2025–present
 order: 2
 featured: true
-summary: Testing whether improvements learned at the calorimeter-cluster level remain useful once signals are assembled into jets, recoil, and missing transverse momentum.
+summary: Testing the effects of cluster calibration on jets, hadronic recoil, and missing transverse momentum.
 tags: [ATLAS, jets, hadronic recoil, missing momentum]
 ---
 
-Improving an individual calorimeter cluster is only valuable if that improvement survives the rest of the reconstruction chain. This project follows the machine-learning-calibrated clusters into the physics objects that analyses actually use.
+## Hadronic recoil
 
-## The hadronic recoil
+The hadronic recoil is the vector sum of reconstructed activity balancing a reference object, such as a photon or vector boson. It combines biases, pile-up contributions, and resolution effects from many detector signals, making it useful for testing calibration. Accurate recoil reconstruction supports precision measurements and searches with missing transverse momentum.
 
-The hadronic recoil is the vector sum of reconstructed activity balancing a well-measured reference object, such as a photon or a vector boson. It is an especially sensitive diagnostic: biases, extra pile-up energy, and resolution effects from many detector signals accumulate in one observable.
+## Validation
 
-Accurate recoil reconstruction matters for precision measurements and for searches with missing transverse momentum. The study therefore asks whether learned calibration and pile-up weights yield a response that is more linear, narrower, and more stable across event conditions.
+I compare jets and event-level balance built from machine-learning-calibrated clusters with established calibrations, using the same samples and selections. I test:
 
-## From local to global performance
+- jet energy response and resolution;
+- stability with increasing pile-up;
+- performance across jet momentum and detector pseudorapidity; and
+- effects on soft activity and missing-transverse-momentum resolution.
 
-I evaluate the new cluster definitions in jet reconstruction and event-level balance. The comparisons are made against established calibrations using common samples and selections, so a gain cannot be attributed merely to a change in the event population.
-
-The central questions are:
-
-- Do reconstructed jets recover the reference energy more accurately?
-- Does the response remain stable with increasing pile-up?
-- Are improvements uniform across jet momentum and detector pseudorapidity?
-- What happens to soft activity and the missing-transverse-momentum resolution?
-
-This downstream validation is deliberately separate from model training. It tests whether the network learned a detector correction that generalizes, rather than only optimizing its cluster-level target.
+This validation is separate from training: it checks whether cluster-level improvements carry through to reconstructed physics objects.

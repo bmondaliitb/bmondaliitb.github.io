@@ -1,8 +1,9 @@
 ---
 title: Research
-kicker: What I work on
-intro: From calorimeter signals to top-quark measurements, my work is about extracting robust physics from a complex detector environment.
+intro: Calorimeter reconstruction, machine learning, and top-quark physics with ATLAS.
 ---
+
+## Ongoing
 
 {% assign ongoing = site.research | where: "status", "Ongoing" | sort: "order" %}
 <div class="research-grid">

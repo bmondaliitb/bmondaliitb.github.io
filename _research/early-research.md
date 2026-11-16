@@ -9,12 +9,12 @@ tags: [jet substructure, convolutional networks, AMS-02, cosmic rays]
 
 ## Jet physics at the LHC
 
-For my MSc research at TIFR Mumbai, supervised by Manoranjan Guchait, I studied the internal structure of high-momentum jets. When a heavy particle is sufficiently boosted, its decay products can overlap inside a single large-radius jet. Substructure observables recover information about those hidden prongs and make it possible to distinguish a boosted top-quark decay from an ordinary quark or gluon jet.
+During my MSc research at TIFR Mumbai, supervised by Manoranjan Guchait, I studied boosted top-quark identification. At high momentum, a top quark's decay products can merge into one large-radius jet; its internal structure helps distinguish it from quark and gluon jets.
 
-I compared established top-tagging techniques and built a convolutional-neural-network tagger using jet images: two-dimensional representations of energy flow in the detector. The exercise reproduced performance comparable to contemporary benchmarks and provided an early bridge between my interests in reconstruction and machine learning.
+I compared existing top-tagging methods and built a convolutional-neural-network tagger using two-dimensional jet images of detector energy flow. Its performance was comparable to contemporary benchmarks.
 
 ## Cosmic-ray anisotropy with AMS-02
 
-During a 2017 internship at Karlsruhe Institute of Technology, I analyzed the directional distribution of helium and carbon cosmic rays recorded by AMS-02 on the International Space Station. The project used the first five years of data to look for departures from isotropy while accounting for the detector's time-dependent exposure.
+During a 2017 internship at Karlsruhe Institute of Technology, I searched for departures from isotropy in helium and carbon cosmic rays recorded by AMS-02 on the International Space Station. I used the first five years of data, accounting for time-dependent detector exposure.
 
-The internship was supported by a grant from the Karlsruhe House of Young Scientists and supervised by Fabian Bindel and Iris Gebauer.
+Fabian Bindel and Iris Gebauer supervised the project, supported by a Karlsruhe House of Young Scientists grant.
